@@ -4,8 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\""
+    "start" : "react-scripts start",
+    "build" : "react-scripts build",
+    "test": "echo \"Error: no test specified\"",
+    "eject" : "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
+  "homepage": "https://ParamAnilkumar.github.io/COMP3104",  
   "keywords": [],
   "author": "",
   "license": "ISC"
